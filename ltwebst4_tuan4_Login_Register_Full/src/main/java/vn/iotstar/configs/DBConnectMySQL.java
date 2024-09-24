@@ -10,9 +10,9 @@ import vn.iotstar.models.User;
 
 public class DBConnectMySQL {
 	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:3306/LapTrinhWeb";
-	private static final String USERNAME = "sa";
-	private static final String PASSWORD = "123456";
+	private static final String URL = "jdbc:mysql://localhost:3306/doanweb";
+	private static final String USERNAME = "root";
+	private static final String PASSWORD = "trieuphuc";
 
 	public static Connection getDatabaseConnection() throws ClassNotFoundException {
 		try {
